@@ -64,19 +64,31 @@
 <body>
     <div class="container">
         <h1>Privacy Policy for Lists & Notes</h1>
-        <p><strong>Effective Date: August 07, 2026</strong></p>
+        <p><strong>Effective Date: August 20, 2026</strong></p>
 
         <p>This Privacy Policy describes how <strong>Lists & Notes</strong> ("we", "us", or "our") handles your data. By
             using the app, you agree to the practices described in this policy.</p>
 
         <h2>1. Information We Collect</h2>
-        <p>We do not personally collect, store, or transmit any identifiable information from our users. We have no
-            servers and no access to your private data.</p>
 
         <h3>Local Data (Room Database)</h3>
-        <p>All content created within the app, including <strong>Notes, Checklists, Tags, and Colors</strong>, is stored
-            <strong>locally on your physical device</strong> using a private Room database. This data stays on your
-            phone and is never uploaded to any external server managed by us.</p>
+        <p>All content you create in the app &mdash; <strong>Notes, Checklists, Tags, and Colors</strong> &mdash; is
+            stored <strong>locally on your device</strong> using a private database. If you never sign in, this data
+            never leaves your device and we have no access to it.</p>
+
+        <h3>Account Data (Google Sign-In via Firebase Authentication)</h3>
+        <p>Signing in is optional. If you choose to sign in with Google, we use <strong>Firebase Authentication</strong>
+            to authenticate you, which collects your <strong>name, email address, profile picture, and a unique
+            account ID</strong> from your Google account. We use this solely to identify your account and to sync
+            your content across your devices.</p>
+
+        <h3>Synced Content (Cloud Firestore)</h3>
+        <p>Once you sign in, your Notes and Checklists are copied to <strong>Google Cloud Firestore</strong>, a cloud
+            database, so they can be restored if you reinstall the app or sign in on another device. This content is
+            stored under your account and is not accessible to other users. Content created while signed out stays
+            local-only unless you later choose to sync it after signing in.</p>
+        <p>Signing out does not delete your local or synced content — it simply stops the device from syncing until
+            you sign in again.</p>
 
         <h2>2. Third-Party Data Collection</h2>
         <p>To keep the app free, we integrate the <strong>Google Mobile Ads SDK (AdMob)</strong>. This service may
@@ -89,28 +101,41 @@
             <li><strong>App Interactions:</strong> Data about app launches, taps, and ad interaction.</li>
             <li><strong>Diagnostic Info:</strong> Performance logs and crash reports to improve the app.</li>
         </ul>
-        <p>For more details, please review the <a href="https://policies.google.com/privacy" target="_blank">Google
-                Privacy & Terms</a>.</p>
+        <p>Both Firebase (Authentication and Firestore) and AdMob are provided by Google. For more details, please
+            review the <a href="https://policies.google.com/privacy" target="_blank">Google Privacy & Terms</a> and
+            <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase's privacy and security
+                page</a>.</p>
+
+        <h3>Your Consent Choices (EEA, UK, and Switzerland)</h3>
+        <p>If you are located in the European Economic Area, the UK, or Switzerland, we show a consent form — using
+            Google's <strong>User Messaging Platform</strong> — the first time you open the app, letting you choose
+            whether to allow personalized advertising. You can change this choice at any time from within that
+            consent form on its next appearance, or by resetting the app's ad settings via your device's Android
+            settings.</p>
 
         <h2>3. Data Retention and Deletion</h2>
-        <p>Since your data is stored locally, you have total control over it. You can:</p>
+        <p>You have control over your data:</p>
         <ul>
-            <li>Delete individual notes or checklists within the app.</li>
-            <li>Clear all data by clearing the app's cache and storage in your device's Android settings.</li>
-            <li>Uninstall the app, which will permanently remove the local database from your device.</li>
+            <li>Delete individual notes or checklists within the app at any time.</li>
+            <li>Uninstalling the app removes all locally stored content from your device.</li>
+            <li>Signing out does <strong>not</strong> delete your synced content, so it's available if you sign back
+                in.</li>
+            <li>To request deletion of your account and all associated synced content from our servers, email us at
+                the address below.</li>
         </ul>
 
         <h2>4. Children’s Privacy</h2>
-        <p>Our app does not address anyone under the age of 13. We do not knowingly collect personally identifiable
-            information from children. If we discover that a child under 13 has provided us with personal information,
-            we immediately delete this from our servers (not applicable as we have no servers).</p>
+        <p>Our app does not address anyone under the age of 13. We do not knowingly collect personal information from
+            children. If we learn that a child under 13 has created an account or provided personal information, we
+            will delete it.</p>
 
         <h2>5. Changes to This Privacy Policy</h2>
         <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated
             effective date.</p>
 
         <h2>6. Contact Us</h2>
-        <p>If you have any questions or suggestions about our Privacy Policy, please contact us at:</p>
+        <p>If you have any questions or suggestions about our Privacy Policy, or want to request deletion of your
+            account data, please contact us at:</p>
         <p><strong>Email:</strong> <a href="mailto:a.gaur89@gmail.com">[Krinava Technologies]</a></p>
     </div>
 
